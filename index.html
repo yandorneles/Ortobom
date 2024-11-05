@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortobom</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ortobom</h1>
+        <p>Sua loja preferida de colchão</p>
+    
+    </header>    
+    <hr>
+    <nav>
+        <ol>
+            <li>
+              <a href="#1"> Colchão de mola </a>
+            </li>
+            <li>
+                <a href="#2">  Colchão de espuma </a>
+            </li>
+            <li>
+                <a href="#3"> Colchão aclopado </a>
+            </li>
+            <li>
+                <a href="#4"> Colchão ortopedico </a>
+            </li>
+        </ol>
+    </nav>
+    <hr/>
+    <br/>
+    <br/>
+    <div>
+        <section>
+            <table>
+                <thead>
+                    <tbody>
+                        <th>#</th>
+                        <th>imagem</th>
+                        <th>descrição</th>
+                    </tbody>
+                    <tr>
+                        <td id="1"> 1 </td>
+                        <td>
+                            <img width="200" src="https://www.filhao.com.br/produtos/adicionais/26644-57262-colchao-ortobom-de-molas-pocket-elegant-euro-pillow.jpg" >
+                        </td>
+                        <td>
+                            <h3> Colchão de mola</h3>
+                            <p>Um bom colchão de mola para suas noites de descanso.</p>
+                            <h4>
+                                <b>R$900,00</b>
+                            </h4>
+                        </td>
+                    </tr>   
+                        <tr>
+                            <td id="2">2</td>
+                            <td>
+                                <img width="200" src="https://www.filhao.com.br/produtos/adicionais/26644-57262-colchao-ortobom-de-molas-pocket-elegant-euro-pillow.jpg" >
+                            </td>
+                            <td>
+                                <h3> Colchão de espuma</h3>
+                                <p>Um bom colchão de espumas para suas noites de descanso.</p>
+                                <h4>
+                                    <b>R$400,00</b>
+                                </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="3">3</td>
+                            <td>
+                                <img width="200" src="https://th.bing.com/th/id/OIP.BQyTMj8EB7xK1U3PKEwHKwHaE8?rs=1&pid=ImgDetMain" >
+                            </td>
+                            <td>
+                                <h3> Colchão aclopado </h3>
+                                <p>Um bom colchão aclopado para suas noites serem mais práticas.</p>
+                                <h4>
+                                    <b>R$600,00</b>
+                                </h4>
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td id="4">4</td>
+                            <td>
+                                <img width="200" src=https://th.bing.com/th/id/OIP.WIF6WIVxBUXNp_H3l2oUHgHaHa?rs=1&pid=ImgDetMain" >
+                            </td>
+                            <td>
+                                <h3> Colchão ortopedico </h3>
+                                <p>Muitas dores nas costas? Sua solção é um colchão ortopedico.</p>
+                                <h4>
+                                    <b>R$1000,00</b>
+                                </h4>
+                            </td>
+                        </tr>          
+                    </thead>
+                </table>
+            </section>
+                <div>
+
+                </div>
+        <aside>
+            <fieldset>
+                <legend>Quero comprar!</legend>
+                <form method="post" action="idenx.php">
+                    <label>Nome</label>
+                    <input name="nome" type="text" /> <br />
+                    <br />
+                    <label">Email</label>
+                    <input nome="Email" type="text" /> <br />
+                    <br />
+                    <label>Colchão</label> <br />
+                    <input name="colchao" id="radio1" type="radio" value="1"> <label>Colchão de mola</label> <br />
+                    <input name="colchao" type="radio" value="2"> <label>Colchão de espuma</label> <br />
+                    <input name="colchao" type="radio" value="3"><label>Colchão aclopado</label> <br />
+                    <input name="colchao" type="radio" value="4"> <label>Colchão ortopedico</label> <br />
+                    <br />
+                    <label">Forma de pagamento</label> <br />
+                    <select name="pagamento">
+                        <option value="Dinheiro">Dinheiro</option> 
+                        <option value="Débito"> Débito</option> 
+                        <option value="Crédito">Crédito</option> 
+                        <option value="PIX">PIX</option> 
+                    </select>
+                    <br />
+                    <br />
+                    <button type="submit">Comprar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </fieldset>
+        </aside>
+    </div>
+    <footer>
+        <br>
+        <br>
+        <hr>
+        <p align="center"> Ortobom (para fins educativos em programação Web) &reg; 2024 - by Yan Dorneles</p>
+    </footer>
+</body>
+</html>
